@@ -2,7 +2,8 @@ import React, { Component } from "react"
 import { withRouter } from "react-router-dom"
 import SustainableData from "./SustainableData"
 import EditSustainable from "./EditSustainable"
-import Donut from "./SustainableChart"
+// import Donut from "./SustainableChart"
+import NewSustainableChart from "./NewSustainableChart"
 import Button from "@material-ui/core/Button"
 import EditIcon from "@material-ui/icons/Edit"
 import DeleteIcon from "@material-ui/icons/Delete"
@@ -42,7 +43,8 @@ class Sustainable extends Component {
       dataStatus: "",
       group: "",
       error: ""
-    }
+    },
+    currentData: {}
   }
 
   componentDidMount = () => {
@@ -62,9 +64,10 @@ class Sustainable extends Component {
       const sustainData = oldData.data.filter(
         data => data.value === "sustainable"
       )
-      console.log("hitting", sustainData)
+      console.log("hitting", sustainData[0])
       this.setState({
-        sustainableData: sustainData
+        sustainableData: sustainData,
+        currentData: sustainData[0]
       })
     } catch (err) {
       console.log(err)
@@ -177,10 +180,13 @@ class Sustainable extends Component {
     })
   }
 
-  showData = e => {
+  showData = currentData => {
+    // this.setState({
+    //   showDataModal: !this.state.showDataModal,
+    //   dataModalProperty: e.target.textContent
+    // })
     this.setState({
-      showDataModal: !this.state.showDataModal,
-      dataModalProperty: e.target.textContent
+      currentData
     })
   }
 
@@ -190,7 +196,8 @@ class Sustainable extends Component {
       editData,
       showEditModal,
       showDataModal,
-      dataModalProperty
+      dataModalProperty,
+      currentData
     } = this.state
     const { isLogged } = this.props.isLogged
     return (
@@ -207,8 +214,8 @@ class Sustainable extends Component {
           </DescribPar>
 
           <DescribPar>
-            Not all communities live in neighborhoods where “the healthy choice
-            is the easy choice,” and instead are surrounded by unhealthy food
+            Not all communities live in neighborhoods where the healthy choice
+            is the easy choice, and instead are surrounded by unhealthy food
             retail such as liquor stores, convenience stores and fast food
             restaurants. Through the numerous policy, systems and environmental
             changes led by stakeholders throughout the LAFPC network, we are
@@ -238,8 +245,25 @@ class Sustainable extends Component {
             <ContainModal>{dataModalProperty}</ContainModal>
           </DivDataModal>
         ) : null}
+        <Row>
+          {this.props.isLogged ? (
+            <TableDataHeader>ADMIN</TableDataHeader>
+          ) : null}
+          <TableDataHeader>
+            <H1>Indicator</H1>
+          </TableDataHeader>
+          <TableDataHeader>
+            <H1>2013</H1>
+          </TableDataHeader>
+          <TableDataHeader>
+            <H1>2017</H1>
+          </TableDataHeader>
+          <TableDataHeader>
+            <H1>2020</H1>
+          </TableDataHeader>
+        </Row>
         <Table>
-          <Row>
+          {/* <Row>
             {this.props.isLogged ? (
               <TableDataHeader>ADMIN</TableDataHeader>
             ) : null}
@@ -247,27 +271,15 @@ class Sustainable extends Component {
               <H1>Indicator</H1>
             </TableDataHeader>
             <TableDataHeader>
-              <H1>Baseline</H1>
+              <H1>2013</H1>
             </TableDataHeader>
             <TableDataHeader>
-              <H1>Update</H1>
+              <H1>2017</H1>
             </TableDataHeader>
             <TableDataHeader>
-              <H1>Sources</H1>
+              <H1>2020</H1>
             </TableDataHeader>
-            <TableDataHeader>
-              <H1>Change</H1>
-            </TableDataHeader>
-            <TableDataHeader>
-              <H1>Notes</H1>
-            </TableDataHeader>
-            <TableDataHeader>
-              <H1>Data Status</H1>
-            </TableDataHeader>
-            <TableDataHeader>
-              <H1>Group</H1>
-            </TableDataHeader>
-          </Row>
+          </Row> */}
           {sustainableData.map((data, i) => {
             return (
               <Row key={i}>
@@ -281,29 +293,17 @@ class Sustainable extends Component {
                     </Button>
                   </TableDataButton>
                 ) : null}
-                <TableData onClick={e => this.showData(e)}>
+                <TableData onClick={() => this.showData(data)}>
                   <P>{data.indicator}</P>
                 </TableData>
-                <TableData onClick={e => this.showData(e)}>
-                  <P>{data.baseline}</P>
+                <TableData onClick={() => this.showData(data)}>
+                  <P>{data[2013]}</P>
                 </TableData>
-                <TableData onClick={e => this.showData(e)}>
-                  <P>{data.update}</P>
+                <TableData onClick={() => this.showData(data)}>
+                  <P>{data[2017]}</P>
                 </TableData>
-                <TableData onClick={e => this.showData(e)}>
-                  <P>{data.sources}</P>
-                </TableData>
-                <TableData onClick={e => this.showData(e)}>
-                  <P>{data.change}</P>
-                </TableData>
-                <TableData onClick={e => this.showData(e)}>
-                  <P>{data.notes}</P>
-                </TableData>
-                <TableData onClick={e => this.showData(e)}>
-                  <P>{data.dataStatus}</P>
-                </TableData>
-                <TableData onClick={e => this.showData(e)}>
-                  <P>{data.group}</P>
+                <TableData onClick={() => this.showData(data)}>
+                  <P>{data[2020]}</P>
                 </TableData>
               </Row>
             )
@@ -313,7 +313,7 @@ class Sustainable extends Component {
           <SustainableData addData={this.addData} />
         ) : null}
         <ChartDiv>
-          <ToolKit>
+          {/* <ToolKit>
             <Button
               style={{ backgroundColor: "#8BC147", marginTop: "10px" }}
               fullWidth
@@ -344,10 +344,25 @@ class Sustainable extends Component {
             >
               Health Diagnosis Percentage
             </Button>
-          </ToolKit>
-          <ToolKit>
-            <Donut sustainableData={this.state.sustainableData} />
-          </ToolKit>
+          </ToolKit> */}
+
+          {/* {Object.keys(currentData).length ? (
+            <ToolKit> */}
+          {/* <Donut sustainableData={this.state.sustainableData} /> */}
+          {/* <NewSustainableChart
+                sustainableData={sustainableData}
+                currentData={currentData}
+              />
+            </ToolKit>
+          ) : null} */}
+          {Object.keys(currentData).length ? (
+            <ToolKit>
+              <NewSustainableChart
+                sustainableData={sustainableData}
+                currentData={currentData}
+              />
+            </ToolKit>
+          ) : null}
         </ChartDiv>
       </Container>
     )

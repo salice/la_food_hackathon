@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components"
 
 export const Container = styled.div`
   display: flex;
@@ -22,12 +22,13 @@ export const ContainModal = styled.div`
   text-align: center;
 `
 
-
 export const Table = styled.div`
   display: flex;
   flex-direction: column;
   width: 95%;
   margin-top: 30px;
+  height: 20em;
+  overflow: scroll;
 `
 export const Row = styled.div`
   display: flex;
@@ -37,19 +38,19 @@ export const Row = styled.div`
 `
 export const TableData = styled.div`
   margin: 1px;
-  width: 11%;
+  width: 24%;
   height: 50px;
   text-align: center;
   overflow: hidden;
   &:hover {
     background: #8bc147;
-    opacity: .8;
+    opacity: 0.8;
   }
 `
 
 export const TableDataHeader = styled.div`
   margin: 1px;
-  width: 11%;
+  width: 24%;
   height: 30px;
   text-align: center;
 `
@@ -75,25 +76,25 @@ export const H1 = styled.h1`
   color: white;
 `
 export const P = styled.p`
-  font-size: .8em;
+  font-size: 0.8em;
   margin: 0px;
 `
 export const DescribSec = styled.div`
- text-align: center;
- margin: 0 10% 0 10%;
+  text-align: center;
+  margin: 0 10% 0 10%;
 `
 export const DescribPar = styled.p`
- text-align: left;
- margin: 2% 0 2% 0;
- `
+  text-align: left;
+  margin: 2% 0 2% 0;
+`
 export const ChartDiv = styled.div`
-display: flex;
-width: 100%;
-justify-content: space-evenly;
-margin: 6%;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 6%;
 `
 
 export const ToolKit = styled.div`
-flex-direction: column;
-margin: 3%;
+  flex-direction: column;
+  margin: 3%;
 `
