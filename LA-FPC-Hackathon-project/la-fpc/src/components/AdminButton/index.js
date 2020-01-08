@@ -1,37 +1,48 @@
-import React, { Component } from 'react'
-import { Route, Switch } from 'react-router-dom'
-import { Link as LinkRoute } from 'react-router-dom';
-import Button from '@material-ui/core/Button';
-import Grid from '@material-ui/core/Grid';
+import React, { Component } from "react"
+import { Route, Switch } from "react-router-dom"
+import { Link as LinkRoute } from "react-router-dom"
+import Button from "@material-ui/core/Button"
+import Grid from "@material-ui/core/Grid"
 import logo from "./img/FPC-Logo.png"
 import Banner from "./img/apples-banner.png"
-import HomeIcon from '@material-ui/icons/Home';
-
+import HomeIcon from "@material-ui/icons/Home"
 
 class AdminButton extends Component {
-
   render() {
     return (
-      <div style={{ backgroundImage: `url(${Banner})`, backgroundPosition: 'center', backgroundSize: 'cover' }}>
-        <div style={{ marginLeft: '30px', marginRight: '30px' }}>
-          <Grid container spacing={3} style={{ alignItems: 'center' }}>
+      <div
+        style={{
+          backgroundImage: `url(${Banner})`,
+          backgroundPosition: "center",
+          backgroundSize: "cover"
+        }}
+      >
+        <div style={{ marginLeft: "30px", marginRight: "30px" }}>
+          <Grid container spacing={3} style={{ alignItems: "center" }}>
             <Grid item xs>
-              <div style={{ display: 'flex' }}>
-                <a href='https://www.goodfoodla.org/'><img src={logo} width={100} height={100} alt={"logo"} /></a>
+              <div style={{ display: "flex" }}>
+                <a href="https://www.goodfoodla.org/">
+                  <img src={logo} width={100} height={100} alt={"logo"} />
+                </a>
               </div>
             </Grid>
             <Grid item xs>
               <div>
-                <div style={{ textAlign: 'center', alignItems: 'center' }}>
-                  <Button size='large' component={LinkRoute} to='/home' style={{ color: 'white', fontWeight: 'bold' }}>
+                <div style={{ textAlign: "center", alignItems: "center" }}>
+                  <Button
+                    size="large"
+                    component={LinkRoute}
+                    to="/home"
+                    style={{ color: "white", fontWeight: "bold" }}
+                  >
                     LAFPC Food System Dashboard
-                    </Button>
+                  </Button>
                 </div>
               </div>
             </Grid>
             {console.log(this.props, "<------------------from admin button")}
             <Grid item xs style={{ textAlign: "right" }}>
-              {
+              {/* {
                 this.props.user.isLogged
                   ? <Button
                     component={LinkRoute}
@@ -42,12 +53,12 @@ class AdminButton extends Component {
                     Logout
                 </Button>
                   : ""
-              }
+              } */}
               <Button
                 component={LinkRoute}
-                to='/'
+                to="/"
                 color="inherit"
-                style={{ margin: '0', color: 'white', fontWeight: 'bold' }}
+                style={{ margin: "0", color: "white", fontWeight: "bold" }}
               >
                 <HomeIcon />
               </Button>
@@ -67,4 +78,4 @@ class AdminButton extends Component {
   }
 }
 
-export default AdminButton;
+export default AdminButton
