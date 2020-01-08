@@ -29,19 +29,19 @@ class Footer extends Component {
             Copyright © 2018 Los Angeles Food Policy Council. All Rights
             Reserved
           </p>
+          {
+            this.props.user.isLogged
+              ? ""
+              : <Button
+                component={LinkRoute}
+                to='/SignIn'
+                color="inherit"
+                style={{ margin: '20px', color: 'red', fontWeight: 'bold', position: "relative", right: "2rem", bottom: "5px" }}
+              >
+                <i className="fas fa-user-lock"></i>
+              </Button>
+          }
         </SecondDiv>
-        {/* {
-                    this.props.user.isLogged
-                        ? "working now"
-                        : <Button
-                            component={LinkRoute}
-                            to='/SignIn'
-                            color="inherit"
-                            style={{ margin: '20px', color: 'red', fontWeight: 'bold', position: "absolute", right: "26rem", bottom: "-1120px" }}
-                        >
-                            <i className="fas fa-user-lock"></i>
-                        </Button>
-                } */}
       </div>
     )
   }
