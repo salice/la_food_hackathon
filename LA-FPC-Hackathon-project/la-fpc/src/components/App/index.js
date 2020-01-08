@@ -21,7 +21,6 @@ const My404 = () => {
   )
 }
 
-
 class App extends Component {
 
   state = {
