@@ -65,6 +65,7 @@ class AddAdmin extends Component {
     if(isValid) {
         console.log(this.props)
         const registerCall = this.props.register(this.state);
+        console.log(registerCall, "<----------------------------register call")
         registerCall.then((data) => {
           console.log(data, 'this is data from register')
           this.props.history.push('/admin-home')
