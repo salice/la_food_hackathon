@@ -1,0 +1,96 @@
+indicator,2013,2017,2020,value,datatype
+Food Insecurity Rates-All households (LA County),30.6,29.2,26.8,affordability,percent
+Food Insecurity Rates-Households living at 0-99% FPL,40.8,41.1,37.1,affordability,percent
+Food Insecurity Rates-Households living at 100-199% FPL,28.7,25.4,25.9,affordability,percent
+Food Insecurity Rates-Households living at 200-299% FPL,15.2,13.7,13.0,affordability,percent
+Food Insecurity Rates-Latino,33.2,34.1,30.2,affordability,percent
+Food Insecurity Rates-Foreign born,,34.80,32.70,affordability,percent
+Food Insecurity Rates-US born,,32.20,24.70,affordability,percent
+Food Insecurity Rates-White,24.1,25.4,21.2,affordability,percent
+Food Insecurity Rates-Foreign born-White,,16.70,,affordability,percent
+Food Insecurity Rates-US born-White,,27.70,22.90,affordability,percent
+Food Insecurity Rates-African American,39.6,33.0,33.3,affordability,percent
+Food Insecurity Rates-Foreign born-African American,,27.60,,affordability,percent
+Food Insecurity Rates-US born-African American,,33.50,33.40,affordability,percent
+Food Insecurity Rates-Asian,21.7,14.1,16.4,affordability,percent
+Food Insecurity Rates-Foreign born-Asian,,13.70,14.40,affordability,percent
+Food Insecurity Rates-US born-Asian,,16.20,19.20,affordability,percent
+Food Insecurity Rates-Native Hawaiian and other Pacific Islander,,,,affordability,percent
+Food Insecurity Rates-American Indian/Alaskan Native,37.1,36.3,,affordability,percent
+Food Insecurity Rates-Ages 18-24,25.7,21.8,25.7,affordability,percent
+Food Insecurity Rates-Ages 25-29,34.4,32.5,26.5,affordability,percent
+Food Insecurity Rates-Ages 30-39,36.2,29.7,29.9,affordability,percent
+Food Insecurity Rates-Ages 40-49,37.8,36.1,31.3,affordability,percent
+Food Insecurity Rates-Ages 50-59,37.3,36.9,34.5,affordability,percent
+Food Insecurity Rates-Ages 60-64,28.9,30.0,26.3,affordability,percent
+Food Insecurity Rates-Ages 65+,12.9,19.9,14.4,affordability,percent
+Diabetes Rates-Adults living at 0-99% FPL,10.5,13.2,16.2,affordability,percent
+Diabetes Rates-Adults living at 100-199% FPL,10.4,10.7,13.3,affordability,percent
+Diabetes Rates-Adults living at 200-299% FPL,10.2,10.3,10.3,affordability,percent
+Diabetes Rates-Adults living at 300% or above FPL,8.1,7.1,7.9,affordability,percent
+Diabetes Rates-Ages 18-24,1.1,1.2,1.1,affordability,percent
+Diabetes Rates-Ages 25-29,2.4,2.0,3.4,affordability,percent
+Diabetes Rates-Ages 30-39,3.7,3.0,3.3,affordability,percent
+Diabetes Rates-Ages 40-49,7.9,8.3,10.1,affordability,percent
+Diabetes Rates-Ages 50-59,13.4,15.6,17.4,affordability,percent
+Diabetes Rates-Ages 60-64,18.9,21.7,22.6,affordability,percent
+Diabetes Rates-Ages 65+,24.1,21.2,23.3,affordability,percent
+Hypertension Rates-Adults living at 0-99% FPL,20.4,23.2,27.0,affordability,percent
+Hypertension Rates-Adults living at 100-199% FPL,25.8,24.0,25.8,affordability,percent
+Hypertension Rates-Adults living at 200-299% FPL,24.8,24.2,25.4,affordability,percent
+Hypertension Rates-Adults living at 300% or above FPL,24.9,23.0,23.3,affordability,percent
+Hypertension Rates-Ages 18-24,4.1,6.2,3.5,affordability,percent
+Hypertension Rates-Ages 25-29,5.0,7.9,6.6,affordability,percent
+Hypertension Rates-Ages 30-39,10.0,11.4,13.1,affordability,percent
+Hypertension Rates-Ages 40-49,22.9,17.6,22.2,affordability,percent
+Hypertension Rates-Ages 50-59,34.5,31.1,32.6,affordability,percent
+Hypertension Rates-Ages 60-64,42.9,42.5,43.9,affordability,percent
+Hypertension Rates-Ages 65+,57.7,54.2,53.1,affordability,percent
+High Cholesterol Rates-Adults living at 0-99% FPL,23.2,23.7,28.6,affordability,percent
+High Cholesterol Rates-Adults living at 100-199% FPL,24.5,23.7,26.9,affordability,percent
+High Cholesterol Rates-Adults living at 200-299% FPL,23.3,26.2,24.5,affordability,percent
+High Cholesterol Rates-Adults living at 300% or above FPL,28.3,26.7,26.7,affordability,percent
+High Cholesterol Rates-Ages 18-24,4.3,5.6,5.7,affordability,percent
+High Cholesterol Rates-Ages 25-29,6.8,11.8,8.2,affordability,percent
+High Cholesterol Rates-Ages 30-39,15.9,15.0,15.6,affordability,percent
+High Cholesterol Rates-Ages 40-49,27.2,24.8,27.7,affordability,percent
+High Cholesterol Rates-Ages 50-59,37.2,34.5,36.8,affordability,percent
+High Cholesterol Rates-Ages 60-64,43.9,41.2,46.6,affordability,percent
+High Cholesterol Rates-Ages 65+,50.2,47.5,47.5,affordability,percent
+Overweight Rates-Adults living at 0-99% FPL,34.7,33.8,30.0,affordability,percent
+Overweight Rates-Adults living at 100-199% FPL,38.4,34.2,32.8,affordability,percent
+Overweight Rates-Adults living at 200-299% FPL,36.7,36.8,37.7,affordability,percent
+Overweight Rates-Adults living at 300% or above FPL,37.8,37.9,35.0,affordability,percent
+Obesity Rates-Adults living at 0-99% FPL,30.2,29.4,35.1,affordability,percent
+Obesity Rates-Adults living at 100-199% FPL,25.7,26.8,33.0,affordability,percent
+Obesity Rates-Adults living at 200-299% FPL,23.2,22.3,23.2,affordability,percent
+Obesity Rates-Adults living at 300% or above FPL,18.9,18.4,22.5,affordability,percent
+Fruit and Vegetable Accessibility-Adults living at 0-199% FPL,81.9,79.7,79.8,affordability,percent
+Fruit and Vegetable Accessibility-All adults,86.7,86.5,86.5,affordability,percent
+Fruit and Vegetable Affordability-Adults living at 0-199% FPL,65.9,66.5,70.1,affordability,percent
+Fruit and Vegetable Affordability-All adults,76.5,75.7,79.2,affordability,percent
+Fruit and Vegetable Consumption-Adults living at 0-99% FPL,12.4,11.5,8.1,affordability,percent
+Fruit and Vegetable Consumption-Adults living at 100-199% FPL,15.8,11.6,9.7,affordability,percent
+Fruit and Vegetable Consumption-Adults living at 200-299% FPL,15.9,13.9,13.7,affordability,percent
+Fruit and Vegetable Consumption-Adults living at 300% or above FPL,18.9,18.9,15.1,affordability,percent
+Fruit and Vegetable Consumption-Children living at 0-199% FPL,24.6,34.3,15.1,affordability,percent
+Fruit and Vegetable Consumption-All children,25.8,31.2,24.6,affordability,percent
+LA County CalFresh participation rate as compared to all CA counties ,34,37,41,affordability,percent
+LA County CalFresh Participation Rate (adjusted for SSI and undocumented),52.1,58.3,69.0,affordability,percent
+LA County CalFresh benefits lost due to underutilization , 993000000.00 , 1290000000.00 , 1218412672.00 ,affordability,percent
+LA County number of CalFresh Participants,1110832,1180033,1071315,affordability,percent
+Percentage of low-income students who participate in school lunch in LA County ,62,67,,affordability,percent
+Percentage of low-income students who eat breakfast in school daily in LA County,29,51,,affordability,percent
+Number of children eligible for free or reduced school meals in LA County ,1017717,1030344,1034525,affordability,whole
+Percent of children eligible for free or reduced school meals in LA County ,67,68,69.30,affordability,percent
+Percent of City of LA farmers markets accepting EBT ,38,96,87.50,affordability,percent
+Percent of City of LA farmers markets accepting WIC ,46,57,54.50,affordability,percent
+Percent of City of LA farmers markets accepting WIC fruit & veggie checks,,,32.50,affordability,percent
+Percent of LA County Farmers markets accepting EBT,39,63,81,affordability,percent
+Percent of LA County farmers markets accepting WIC,53,56,54.50,affordability,percent
+Percent of LA County farmers markets accepting WIC fruit & veggie checks,,,23.50,affordability,percent
+Percent of LA County farmers markets accepting Market Match,25,39,28,affordability,percent
+,,,,,
+,,,,,
+,,,,,
+,,,,,
