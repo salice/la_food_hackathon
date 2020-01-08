@@ -3,6 +3,7 @@ import { withRouter } from 'react-router-dom'
 import HealthyData from './HealthyData';
 import EditHealthy from './EditHealthy';
 import Donut from './HealthyChart';
+import SearchBar from '../SearchBar';
 import Button from '@material-ui/core/Button';
 import EditIcon from '@material-ui/icons/Edit';
 import DeleteIcon from '@material-ui/icons/Delete';
