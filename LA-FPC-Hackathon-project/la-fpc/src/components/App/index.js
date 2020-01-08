@@ -7,6 +7,7 @@ import Healthy from '../Healthy';
 import Fair from '../Fair';
 import Sustainable from '../Sustainable';
 import Navbar from '../Navbar';
+import SearchBar from '../SearchBar'
 import AdminHome from '../AdminHome';
 import SignIn from '../SignIn'
 import AdminButton from '../AdminButton';
@@ -23,7 +24,6 @@ const My404 = () => {
 
 
 class App extends Component {
-
   state = {
     user: null,
     laoding: true,
@@ -126,6 +126,7 @@ class App extends Component {
       <div>
         <AdminButton logout={this.logout} user={this.state}/>
         <Navbar />
+        {/* <SearchBar /> */}
         <Switch>
           {
             this.state.isLogged
