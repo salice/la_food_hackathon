@@ -13,6 +13,7 @@ import {
 import domtoimage from "dom-to-image"
 import { saveAs } from "file-saver"
 import FPCLogo from "./FPCLogo.png"
+import Button from "@material-ui/core/Button"
 
 class NewSustainableChart extends Component {
   state = {
@@ -24,7 +25,7 @@ class NewSustainableChart extends Component {
 
     domtoimage
       .toBlob(document.getElementById("graph-to-save"), {
-        bgcolor: "#151515"
+        filter: node => node.id !== "button-to-ignore"
       })
       .then(blob => saveAs(blob, `${data.indicator}.png`))
   }
@@ -106,49 +107,51 @@ class NewSustainableChart extends Component {
     ]
     return (
       <Canvas id="graph-to-save">
-        <div className="title-div">
-          <img src={FPCLogo} style={({ width: "4em" }, { height: "4em" })} />
-          <h2>LAPFC Food System Dashboard</h2>
-          <h2 style={{ color: "#78c930" }}>{data.indicator}</h2>
-          <button onClick={this.savePng} data-html2canvas-ignore>
-            Save Result
-          </button>
-        </div>
-        <BarChart
-          width={1200}
-          height={650}
-          data={dataToRender}
-          margin={{
-            top: 5,
-            right: 30,
-            left: 20,
-            bottom: 5
-          }}
-        >
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" />
-          <YAxis />
-          <Tooltip />
-          {/* <Legend /> */}
-          <Bar dataKey={data.indicator} fill="#78c930" />
-        </BarChart>
-        <div></div>
-        <div className="title-div bottom-div">
-          {data.datatype === "percent" ? (
-            <h3>{data[2013]}%</h3>
-          ) : (
-            <h3>{data[2013]}</h3>
-          )}
-          {data.datatype === "percent" ? (
-            <h3>{data[2017]}%</h3>
-          ) : (
-            <h3>{data[2017]}</h3>
-          )}
-          {data.datatype === "percent" ? (
-            <h3>{data[2020]}%</h3>
-          ) : (
-            <h3>{data[2020]}</h3>
-          )}
+        <div className="bg">
+          <div className="title-div">
+            <img src={FPCLogo} style={({ width: "4em" }, { height: "4em" })} />
+            <h2>LAPFC Food System Dashboard</h2>
+            <h2 style={{ color: "#78c930" }}>{data.indicator}</h2>
+            <Button id="button-to-ignore" onClick={this.savePng}>
+              Save Result
+            </Button>
+          </div>
+          <BarChart
+            width={1200}
+            height={650}
+            data={dataToRender}
+            margin={{
+              top: 5,
+              right: 30,
+              left: 20,
+              bottom: 5
+            }}
+          >
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="name" />
+            <YAxis />
+            <Tooltip />
+            {/* <Legend /> */}
+            <Bar dataKey={data.indicator} fill="#78c930" />
+          </BarChart>
+          <div></div>
+          <div className="title-div bottom-div">
+            {data.datatype === "percent" ? (
+              <h3>{data[2013]}%</h3>
+            ) : (
+              <h3>{data[2013]}</h3>
+            )}
+            {data.datatype === "percent" ? (
+              <h3>{data[2017]}%</h3>
+            ) : (
+              <h3>{data[2017]}</h3>
+            )}
+            {data.datatype === "percent" ? (
+              <h3>{data[2020]}%</h3>
+            ) : (
+              <h3>{data[2020]}</h3>
+            )}
+          </div>
         </div>
       </Canvas>
     )

@@ -10,13 +10,23 @@ const Canvas = styled.div`
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: #ffffff;
+
+  .bg {
+    display: inherit;
+    flex-direction: inherit;
+    height: 100%;
+    width: 100%;
+    justify-content: inherit;
+    align-items: inherit;
+    background-color: white;
+  }
 
   .title-div {
     width: 95vw;
     display: flex;
     justify-content: space-evenly;
     margin: 1em 0;
+    background-color: #ffffff;
   }
 
   .bottom-div {
