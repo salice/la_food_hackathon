@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Switch, Redirect, withRouter } from 'react-router-dom';
 import Homepage from '../Homepage';
-import AddAdmin from '../AddAdmin';
+import AddAdmin from '../addAdmin';
 import Affordable from '../Affordable';
 import Healthy from '../Healthy';
 import Fair from '../Fair';
@@ -39,6 +39,15 @@ class App extends Component {
     //     user: user
     //   })
     // }
+    const admin = localStorage.getItem("admin")
+    if(admin) {
+      console.log(admin, "<-------------------------admin")
+      const currentAdmin = admin
+      this.setState({
+        isLogged: true,
+        user: admin
+      })
+    }
   }
 
   register = async (data) => {
@@ -59,7 +68,7 @@ class App extends Component {
       console.log(localStorage, 'this is local storage')
       this.setState({
         user: parsedResponse.data,
-        laoding: false,
+        loading: false,
         isLogged: true
       })
 
