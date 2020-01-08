@@ -1,0 +1,290 @@
+indicator,2013,2017,2020,value,datatype
+Acres of agricultural land in LA Foodshed,8046054.0,8011770.0,7964494.0,sustainable,whole
+Acres of agricultural land converted to urban and built land in LA Foodshed,12599.0,10660.0,15577.0,sustainable,whole
+Land in farms in LA County,108463.0,91689.0,57809.0,sustainable,whole
+Acres of grazing land in LA County,231287.0,235826.0,239037.0,sustainable,whole
+Farms in LA Foodshed,23001.0,20308.0,18117.0,sustainable,whole
+Farms in LA County,1734.0,1294.0,1035.0,sustainable,whole
+Farms in LA City,26.0,31.0,,sustainable,whole
+Average farm size in LA Foodshed (acres),396.0,398.0,408.0,sustainable,whole
+Average farm size in LA County (acres),63.0,71.0,56.0,sustainable,whole
+Farms transitioning into USDA National Organic Program in LA Foodshed,469.0,130.0,99.0,sustainable,whole
+Microfarms in LA Foodshed,7675.0,7369.0,8998.0,sustainable,whole
+Microfarms in LA County,446.0,510.0,722.0,sustainable,whole
+Percent of Small Farms in LA Foodshed,87.0,87.0,86.0,sustainable,whole
+Acres harvested in Small Farms in LA Foodshed,173266.0,167308.0,142844.0,sustainable,whole
+Percent of Mid-Sized Farms in LA Foodshed,6.0,5.0,6.0,sustainable,whole
+Acres harvested in Mid-Sized Farms in LA Foodshed,156992.0,153007.0,155679.0,sustainable,whole
+Percent of Large Farms in LA Foodshed,7.0,8.0,8.0,sustainable,whole
+Acres harvested in Large Farms in LA Foodshed,1380895.0,1464320.0,1443227.0,sustainable,whole
+Percent of acres harvested in Large Farms,80.7,82.1,82.9,sustainable,percent
+Percent of Large Farms by Agricultural Sales in LA Foodshed,9.0,10.0,11.4,sustainable,percent
+Percent of Agricultural Sales made by Large Farms,93.0,94.0,94.2,sustainable,percent
+Farms with direct sales in LA Foodshed,2043.0,2330.0,2264.0,sustainable,whole
+Farms with direct sales in LA County,168.0,210.0,105.0,sustainable,whole
+Value of direct sales in LA Foodshed,45842000.0,44916000.0,218719000.0,sustainable,whole
+Value of direct sales in LA County,3541000.0,2369000.0,1384000.0,sustainable,whole
+"Total fruit, vegetable, and nut production value in LA Foodshed ",11387907856.0,12566318008.0,8146710000.0,sustainable,whole
+Total market value of Agricultural Production in LA County,325880000.0,193097000.0,154608000.0,sustainable,whole
+Honey Operations with production in LA County,18.0,33.0,33.0,sustainable,whole
+Acres of Almond Crops in LA Foodshed,145288.0,158726.0,173996.0,sustainable,whole
+Acres of Alfalfa Hay crops in LA Foodshed,281259.0,268436.0,272075.0,sustainable,whole
+Women-Operated Farms in LA Foodshed,5098.0,4176.0,8334.0,sustainable,whole
+Minority-Operated Farms in LA Foodshed,3181.0,1840.0,2842.0,sustainable,whole
+American Indian or Alaska Native Operated Farms,,,236.0,sustainable,whole
+Asian Operated Farms,,,1071.0,sustainable,whole
+Black or African American Operated Farms,,,115.0,sustainable,whole
+Native Hawaiian or Other Pacific Islander operated farm,,,81.0,sustainable,whole
+Certified FMs in LA County,148.0,138.0,132.0,sustainable,whole
+Certified FMs in LA City,72.0,56.0,40.0,sustainable,whole
+Percent of FMs in LA County that accept EBT,39.0,63.0,81.1,sustainable,percent
+Percent of FMs in LA City that accept EBT,38.0,96.0,87.5,sustainable,percent
+Community Gardens in LA County,118.0,158.0,,sustainable,whole
+Community Gardens in LA City,48.0,77.0,,sustainable,whole
+School Gardens in LA County,749.0,425.0,,sustainable,whole
+School Gardens in LA City,312.0,188.0,,sustainable,whole
+Nurseries in LA County,268.0,368.0,,sustainable,whole
+Nurseries in LA City,89.0,97.0,,sustainable,whole
+Total tons of pesticides applied in LA Foodshed,27945.0,26979.0,23386.0,sustainable,whole
+Percent of agricultural pesticides applied in LA Foodshed,87.0,85.0,86.0,sustainable,percent
+Percent of agricultural greenhouse gas emissions in CA,7.6,7.9,7.6,sustainable,percent
+Percent of agricultural greenhouse gas emissions for livestock production in CA,67.7,66.1,70.0,sustainable,percent
+Amount of Residential Food Waste Recycled (Tons) through Bureau of Sanitation Waste Reduction and Recycling Programs,20.0,57.0,,sustainable,whole
+Amount of Restaurant Food Waste Recycled (Tons) through Bureau of Sanitation Waste Reduction and Recycling Programs,15492.0,43303.0,,sustainable,whole
+Tons of food recovered and redistributed in LA County by Food Finders,4153471.42,3805447.0,,sustainable,whole
+Tons of food recovered and redistributed in LA City by Food Finders,642940.0,2953459.0,,sustainable,whole
+Pounds of produce recovered in the LA Foodshed by Food Forward,2083546.25,8811283.0,23100000.0,sustainable,whole
+Total Food Waste from CalRecycle Disposal Facility,5083364.0,5591179.0,,sustainable,whole
+Percent of waste that is food from CalRecycle Disposal Facility,16.5,18.1,,sustainable,percent
+Percentage of Certified Organic Farms in LA Foodshed,4.9,5.2,6.7,sustainable,percent
+Percentage of Certified Organic Farms in LA County,1.6,2.1,2.9,sustainable,percent
+Grocery Stores in LA County,2011,2056,2637,health,whole
+          Grocery Stores in South LA,86,88,91,health,whole
+          Grocery Stores in East LA,20,19,22,health,whole
+          Grocery Stores in West LA,48,54,47,health,whole
+Convenience Stores in LA County,621,648,657,health,whole
+Liquor Stores in LA County,1135,1172,1198,health,whole
+          Liquor Stores in South LA,106,114,119,health,whole
+          Liquor Stores in East LA,19,13,13,health,whole
+          Liquor Stores in West LA,34,29,32,health,whole
+Farms in LA County,182,190,,health,whole
+Farms in LA City,26,31,,health,whole
+          Urban Farms in South LA,1,9,,health,whole
+          Urban Farms in East LA,2,0,,health,whole
+          Urban Farms in West LA,2,4,,health,whole
+Farms with direct sales in LA County,168,210,105,health,whole
+Value of direct sales in LA County,3541000 ,2369000 ,1384000 ,health,whole
+Certified FMs in LA County,148,138,132,health,whole
+Certified FMs in LA City,72,56,40,health,whole
+          FMs in South LA,9,8,5,health,whole
+          FMs in East LA,2,1,1,health,whole
+          FMs in West LA,16,13,12,health,whole
+Community Gardens in LA County,118,158,,health,whole
+Community Gardens in LA City,48,77,,health,whole
+          Community Gardens in South LA,10,19,,health,whole
+          Community Gardens in East LA,1,3,,health,whole
+          Community Gardens in West LA,4,5,,health,whole
+School gardens in LA County,749,425,,health,whole
+School Gardens in LA City,312,188,,health,whole
+Nurseries in LA County,268,368,,health,whole
+Nurseries in LA City,89,97,,health,whole
+Adults often able to find fresh fruits and vegetables in neighborhood,86.70,86.50,86.50,health,percent
+Adults often able to afford fresh fruits and vegetables in neighborhood,76.50,75.70,79.20,health,percent
+Adults who consume 5+ servings of fruit and vegetables per day,16.20,14.70,12.10,health,percent
+Teens who consume 5+ servings of fruit and vegetables per day,24.10,26.70,32.40,health,percent
+Children (2-11) who consume 5+ servings of fruit and vegetables per day,25.80,31.20,24.60,health,percent
+Adults and children who consume fast food at least once a week,68.50,71.50,72.50,health,percent
+Adults who drink at least one soda or sweetened drink a day,35.50,31.40,,health,percent
+Children who drink at least one soda or sweetened drink a day,38.30,39.20,37.20,health,percent
+Percentage of adults who consume 5 or more servings of fruit and vegetables a day-African-American,12.40,12.10,10.40,health,percent
+Percentage of adults who consume 5 or more servings of fruit and vegetables a day-Asian,17.50,11.80,7.20,health,percent
+Percentage of adults who consume 5 or more servings of fruit and vegetables a day-Latino,13.00,12.40,9.70,health,percent
+Percentage of adults who consume 5 or more servings of fruit and vegetables a day-American Indian/Alaska Native,16.30,11.70,,health,percent
+Percentage of adults who consume 5 or more servings of fruit and vegetables a day-Native Hawaiian or Pacific Islander,,,,health,percent
+Percentage of adults who consume 5 or more servings of fruit and vegetables a day-White,21.00,20.10,18.10,health,percent
+Percentage of adults who consume fast food at least once a week-Antelope Valley,69.50,70.30,79.40,health,percent
+Percentage of adults who consume fast food at least once a week-San Fernando,64.00,68.90,74.90,health,percent
+Percentage of adults who consume fast food at least once a week-San Gabriel,69.80,71.50,70.80,health,percent
+Percentage of adults who consume fast food at least once a week-Metro,63.00,66.70,64.50,health,percent
+Percentage of adults who consume fast food at least once a week-South LA,74.30,81.80,71.90,health,percent
+Percentage of adults who consume fast food at least once a week-East LA,78.60,82.30,79.60,health,percent
+Percentage of adults who consume fast food at least once a week-South Bay,71.10,71.50,69.40,health,percent
+Percentage of adults who consume fast food at least once a week-West LA,51.90,52.40,50.00,health,percent
+Percentage of adults who drink at least one soda or sweetened drink a day-African-American,35.50,41.00,,health,percent
+Percentage of adults who drink at least one soda or sweetened drink a day-Asian,20.60,25.50,,health,percent
+Percentage of adults who drink at least one soda or sweetened drink a day-Latino,47.70,39.00,,health,percent
+Percentage of adults who drink at least one soda or sweetened drink a day-Native Hawaiian and Other Pacific Islander,0.00,15.70,,health,percent
+Percentage of adults who drink at least one soda or sweetened drink a day-White,26.40,21.00,,health,percent
+Percent of adults who are overweight-African-American,38.90,32.00,32.50,health,percent
+Percent of adults who are overweight-Asian,32.90,30.40,29.50,health,percent
+Percent of adults who are overweight-Latino,40.60,39.30,35.80,health,percent
+Percent of adults who are overweight-American Indian/Alaskan Native,45.20,54.20,32.50,health,percent
+Percent of adults who are overweight-Native Hawaiian or Pacific Islander,45.90,27.30,31.80,health,percent
+Percent of adults who are overweight-White,34.00,35.00,34.20,health,percent
+Percent of adults who are obese,,,,health,percent
+Percent of adults who are obese-All,37.10,35.90,27.70,health,percent
+Percent of adults who are obese-African-American,31.00,32.90,32.50,health,percent
+Percent of adults who are obese-Asian,8.90,9.30,9.50,health,percent
+Percent of adults who are obese-Latino,31.60,30.90,37.00,health,percent
+Percent of adults who are obese-American Indian/Alaskan Native,25.80,19.10,38.00,health,percent
+Percent of adults who are obese-Native Hawaiian or Pacific Islander,,15.00,52.00,health,percent
+Percent of adults who are obese-White,18.00,18.00,21.90,health,percent
+"Percent of adults who are obese-Children in grades 5, 7, and 9",22.40,21.20,22.80,health,percent
+Percentage of adults ever diagnosed with Diabetes-African-American,12.60,13.70,14.40,health,percent
+Percentage of adults ever diagnosed with Diabetes-Asian,9.30,8.20,8.20,health,percent
+Percentage of adults ever diagnosed with Diabetes-Latino,9.50,10.70,13.60,health,percent
+Percentage of adults ever diagnosed with Diabetes-American Indian/Alaskan Native,,15.20,,health,percent
+Percentage of adults ever diagnosed with Diabetes-Native Hawaiian and Other Pacific Islanders,,29.90,,health,percent
+Percentage of adults ever diagnosed with Diabetes-White,8.50,8.20,8.80,health,percent
+Percentage of adults ever diagnosed with Diabetes-Antelope Valley,10.70,13.90,13.10,health,percent
+Percentage of adults ever diagnosed with Diabetes-San Fernando,9.30,8.20,10.10,health,percent
+Percentage of adults ever diagnosed with Diabetes-San Gabriel,7.70,9.10,11,health,percent
+Percentage of adults ever diagnosed with Diabetes-Metro,7.30,11.60,12.10,health,percent
+Percentage of adults ever diagnosed with Diabetes-South LA,10.10,12.30,14.70,health,percent
+Percentage of adults ever diagnosed with Diabetes-East LA,15.10,11.20,11.40,health,percent
+Percentage of adults ever diagnosed with Diabetes-South Bay,9.80,10.40,12.50,health,percent
+Percentage of adults ever diagnosed with Diabetes-West LA,5.50,4.50,6.30,health,percent
+Percentage of adults ever diagnosed with high cholesterol-African-American,39.20,33.30,35.90,health,percent
+Percentage of adults ever diagnosed with high cholesterol-Asian,25.30,20.40,21.90,health,percent
+Percentage of adults ever diagnosed with high cholesterol-Latino,18.00,19.70,22.80,health,percent
+Percentage of adults ever diagnosed with high cholesterol-American Indian/Alaskan Native,43.30,24.20,25.60,health,percent
+Percentage of adults ever diagnosed with high cholesterol-Native Hawaiian and Other Pacific Islander,,36.80,,health,percent
+Percentage of adults ever diagnosed with high cholesterol-White,27.40,27.50,27.30,health,percent
+Percentage of adults ever diagnosed with high cholesterol-Antelope Valley,29.00,30.30,30.70,health,percent
+Percentage of adults ever diagnosed with high cholesterol-San Fernando,23.90,23.70,24.20,health,percent
+Percentage of adults ever diagnosed with high cholesterol-San Gabriel,25.40,25.30,25.50,health,percent
+Percentage of adults ever diagnosed with high cholesterol-Metro,20.40,22.40,25,health,percent
+Percentage of adults ever diagnosed with high cholesterol-South LA,28.40,24.50,27.60,health,percent
+Percentage of adults ever diagnosed with high cholesterol-East LA,24.40,22.80,23.20,health,percent
+Percentage of adults ever diagnosed with high cholesterol-South Bay,24.50,23.10,27.60,health,percent
+Percentage of adults ever diagnosed with high cholesterol-West LA,17.10,17.10,19.60,health,percent
+Percentage of adults ever diagnosed with high cholesterol-African-American,26.90,23.50,23.90,health,percent
+Percentage of adults ever diagnosed with high cholesterol-Asian,26.30,24.50,25.60,health,percent
+Percentage of adults ever diagnosed with high cholesterol-Latino,22.20,22.40,26.30,health,percent
+Percentage of adults ever diagnosed with high cholesterol-American Indian/Alaskan Native,38.60,23.90,13.10,health,percent
+Percentage of adults ever diagnosed with high cholesterol-Native Hawaiian and Other Pacific Islander,,33.30,30.50,health,percent
+Percentage of adults ever diagnosed with high cholesterol-White,29.70,29.80,29.60,health,percent
+Percentage of adults ever diagnosed with high cholesterol-Antelope Valley,26.40,28.30,30.30,health,percent
+Percentage of adults ever diagnosed with high cholesterol-San Fernando,28.40,24.90,24.70,health,percent
+Percentage of adults ever diagnosed with high cholesterol-San Gabriel,23.90,23.70,27.70,health,percent
+Percentage of adults ever diagnosed with high cholesterol-Metro,24.10,25.70,28.90,health,percent
+Percentage of adults ever diagnosed with high cholesterol-East LA,25.40,27.60,24.90,health,percent
+Percentage of adults ever diagnosed with high cholesterol-South Bay,26.50,26.50,29.00,health,percent
+Percentage of adults ever diagnosed with high cholesterol-South LA,22.90,22.20,26.50,health,percent
+Percentage of adults ever diagnosed with high cholesterol-West LA,24.80,24.40,24.80,health,percent
+Food Insecurity Rates-All households (LA County),30.6,29.2,26.8,affordability,percent
+Food Insecurity Rates-Households living at 0-99% FPL,40.8,41.1,37.1,affordability,percent
+Food Insecurity Rates-Households living at 100-199% FPL,28.7,25.4,25.9,affordability,percent
+Food Insecurity Rates-Households living at 200-299% FPL,15.2,13.7,13.0,affordability,percent
+Food Insecurity Rates-Latino,33.2,34.1,30.2,affordability,percent
+Food Insecurity Rates-Foreign born,,34.80,32.70,affordability,percent
+Food Insecurity Rates-US born,,32.20,24.70,affordability,percent
+Food Insecurity Rates-White,24.1,25.4,21.2,affordability,percent
+Food Insecurity Rates-Foreign born-White,,16.70,,affordability,percent
+Food Insecurity Rates-US born-White,,27.70,22.90,affordability,percent
+Food Insecurity Rates-African American,39.6,33.0,33.3,affordability,percent
+Food Insecurity Rates-Foreign born-African American,,27.60,,affordability,percent
+Food Insecurity Rates-US born-African American,,33.50,33.40,affordability,percent
+Food Insecurity Rates-Asian,21.7,14.1,16.4,affordability,percent
+Food Insecurity Rates-Foreign born-Asian,,13.70,14.40,affordability,percent
+Food Insecurity Rates-US born-Asian,,16.20,19.20,affordability,percent
+Food Insecurity Rates-Native Hawaiian and other Pacific Islander,,,,affordability,percent
+Food Insecurity Rates-American Indian/Alaskan Native,37.1,36.3,,affordability,percent
+Food Insecurity Rates-Ages 18-24,25.7,21.8,25.7,affordability,percent
+Food Insecurity Rates-Ages 25-29,34.4,32.5,26.5,affordability,percent
+Food Insecurity Rates-Ages 30-39,36.2,29.7,29.9,affordability,percent
+Food Insecurity Rates-Ages 40-49,37.8,36.1,31.3,affordability,percent
+Food Insecurity Rates-Ages 50-59,37.3,36.9,34.5,affordability,percent
+Food Insecurity Rates-Ages 60-64,28.9,30.0,26.3,affordability,percent
+Food Insecurity Rates-Ages 65+,12.9,19.9,14.4,affordability,percent
+Diabetes Rates-Adults living at 0-99% FPL,10.5,13.2,16.2,affordability,percent
+Diabetes Rates-Adults living at 100-199% FPL,10.4,10.7,13.3,affordability,percent
+Diabetes Rates-Adults living at 200-299% FPL,10.2,10.3,10.3,affordability,percent
+Diabetes Rates-Adults living at 300% or above FPL,8.1,7.1,7.9,affordability,percent
+Diabetes Rates-Ages 18-24,1.1,1.2,1.1,affordability,percent
+Diabetes Rates-Ages 25-29,2.4,2.0,3.4,affordability,percent
+Diabetes Rates-Ages 30-39,3.7,3.0,3.3,affordability,percent
+Diabetes Rates-Ages 40-49,7.9,8.3,10.1,affordability,percent
+Diabetes Rates-Ages 50-59,13.4,15.6,17.4,affordability,percent
+Diabetes Rates-Ages 60-64,18.9,21.7,22.6,affordability,percent
+Diabetes Rates-Ages 65+,24.1,21.2,23.3,affordability,percent
+Hypertension Rates-Adults living at 0-99% FPL,20.4,23.2,27.0,affordability,percent
+Hypertension Rates-Adults living at 100-199% FPL,25.8,24.0,25.8,affordability,percent
+Hypertension Rates-Adults living at 200-299% FPL,24.8,24.2,25.4,affordability,percent
+Hypertension Rates-Adults living at 300% or above FPL,24.9,23.0,23.3,affordability,percent
+Hypertension Rates-Ages 18-24,4.1,6.2,3.5,affordability,percent
+Hypertension Rates-Ages 25-29,5.0,7.9,6.6,affordability,percent
+Hypertension Rates-Ages 30-39,10.0,11.4,13.1,affordability,percent
+Hypertension Rates-Ages 40-49,22.9,17.6,22.2,affordability,percent
+Hypertension Rates-Ages 50-59,34.5,31.1,32.6,affordability,percent
+Hypertension Rates-Ages 60-64,42.9,42.5,43.9,affordability,percent
+Hypertension Rates-Ages 65+,57.7,54.2,53.1,affordability,percent
+High Cholesterol Rates-Adults living at 0-99% FPL,23.2,23.7,28.6,affordability,percent
+High Cholesterol Rates-Adults living at 100-199% FPL,24.5,23.7,26.9,affordability,percent
+High Cholesterol Rates-Adults living at 200-299% FPL,23.3,26.2,24.5,affordability,percent
+High Cholesterol Rates-Adults living at 300% or above FPL,28.3,26.7,26.7,affordability,percent
+High Cholesterol Rates-Ages 18-24,4.3,5.6,5.7,affordability,percent
+High Cholesterol Rates-Ages 25-29,6.8,11.8,8.2,affordability,percent
+High Cholesterol Rates-Ages 30-39,15.9,15.0,15.6,affordability,percent
+High Cholesterol Rates-Ages 40-49,27.2,24.8,27.7,affordability,percent
+High Cholesterol Rates-Ages 50-59,37.2,34.5,36.8,affordability,percent
+High Cholesterol Rates-Ages 60-64,43.9,41.2,46.6,affordability,percent
+High Cholesterol Rates-Ages 65+,50.2,47.5,47.5,affordability,percent
+Overweight Rates-Adults living at 0-99% FPL,34.7,33.8,30.0,affordability,percent
+Overweight Rates-Adults living at 100-199% FPL,38.4,34.2,32.8,affordability,percent
+Overweight Rates-Adults living at 200-299% FPL,36.7,36.8,37.7,affordability,percent
+Overweight Rates-Adults living at 300% or above FPL,37.8,37.9,35.0,affordability,percent
+Obesity Rates-Adults living at 0-99% FPL,30.2,29.4,35.1,affordability,percent
+Obesity Rates-Adults living at 100-199% FPL,25.7,26.8,33.0,affordability,percent
+Obesity Rates-Adults living at 200-299% FPL,23.2,22.3,23.2,affordability,percent
+Obesity Rates-Adults living at 300% or above FPL,18.9,18.4,22.5,affordability,percent
+Fruit and Vegetable Accessibility-Adults living at 0-199% FPL,81.9,79.7,79.8,affordability,percent
+Fruit and Vegetable Accessibility-All adults,86.7,86.5,86.5,affordability,percent
+Fruit and Vegetable Affordability-Adults living at 0-199% FPL,65.9,66.5,70.1,affordability,percent
+Fruit and Vegetable Affordability-All adults,76.5,75.7,79.2,affordability,percent
+Fruit and Vegetable Consumption-Adults living at 0-99% FPL,12.4,11.5,8.1,affordability,percent
+Fruit and Vegetable Consumption-Adults living at 100-199% FPL,15.8,11.6,9.7,affordability,percent
+Fruit and Vegetable Consumption-Adults living at 200-299% FPL,15.9,13.9,13.7,affordability,percent
+Fruit and Vegetable Consumption-Adults living at 300% or above FPL,18.9,18.9,15.1,affordability,percent
+Fruit and Vegetable Consumption-Children living at 0-199% FPL,24.6,34.3,15.1,affordability,percent
+Fruit and Vegetable Consumption-All children,25.8,31.2,24.6,affordability,percent
+LA County CalFresh participation rate as compared to all CA counties ,34,37,41,affordability,percent
+LA County CalFresh Participation Rate (adjusted for SSI and undocumented),52.1,58.3,69.0,affordability,percent
+LA County CalFresh benefits lost due to underutilization , 993000000.00 , 1290000000.00 , 1218412672.00 ,affordability,percent
+LA County number of CalFresh Participants,1110832,1180033,1071315,affordability,percent
+Percentage of low-income students who participate in school lunch in LA County ,62,67,,affordability,percent
+Percentage of low-income students who eat breakfast in school daily in LA County,29,51,,affordability,percent
+Number of children eligible for free or reduced school meals in LA County ,1017717,1030344,1034525,affordability,whole
+Percent of children eligible for free or reduced school meals in LA County ,67,68,69.30,affordability,percent
+Percent of City of LA farmers markets accepting EBT ,38,96,87.50,affordability,percent
+Percent of City of LA farmers markets accepting WIC ,46,57,54.50,affordability,percent
+Percent of City of LA farmers markets accepting WIC fruit & veggie checks,,,32.50,affordability,percent
+Percent of LA County Farmers markets accepting EBT,39,63,81,affordability,percent
+Percent of LA County farmers markets accepting WIC,53,56,54.50,affordability,percent
+Percent of LA County farmers markets accepting WIC fruit & veggie checks,,,23.50,affordability,percent
+Percent of LA County farmers markets accepting Market Match,25,39,28,affordability,percent
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+Total Food System Jobs in LA County,520493,586061,619200,fair,whole
+Percent of Total Food System Jobs in LA County,13,14,10.1,fair,percent
+Total Food System Jobs in LA Foodshed,1311483,1464450,1122740,fair,whole
+Percent of Total Food System Jobs in LA Foodshed,13,15,11.2,fair,percent
+Average hourly wage of nonsupervisory food system worker in LA County, 10.62 , 12.59 , 13.09 ,fair,whole
+Average hourly wage of nonsupervisory food system worker in LA Foodshed, 10.50 , 12.55 , 12.95 ,fair,whole
+Average hourly wage of supervisory food system worker in LA County, 18.17 , 19.23 , 21.13 ,fair,whole
+Average hourly wage of supervisory food system worker in LA Foodshed, 18.46 , 19.80 , 21.97 ,fair,whole
+Gap between the living wage and minimum wage for a household with 2 adults & 1 child in LA County, 12.07 , 16.16 , 16.91 ,fair,whole
+Gap between avg hourly wage of all food system workers and all workers in LA Foodshed, 13.26 , 12.72 , 13.50 ,fair,whole
+Gap between avg hourly wage of all food system workers and all workers in LA County, 14.13 , 13.52 , 14.45 ,fair,whole
+Average number of chickens used for meat per farm in California,118675,50998,63669,fair,whole
+Average number of hens used for eggs per farm in California,4138,2818,2169,fair,whole
+Average number of pigs per farm in California,111,78,69,fair,whole
+Average number of cows used for dairy per farm in California,851,941,1059,fair,whole
+Reported injuries & illnesses due to ag production and pesticide exposure for agricultural workers in LA Foodshed,60,176,34,fair,whole
+California food system workers experiencing food insecurity,18.0,26.5,,fair,percent
+California workers experiencing food insecurity,17.0,20.8,,fair,percent
+California food system workers on CalFresh,23.0,19.7,,fair,percent
+California workers on CalFresh,11.0,16.1,,fair,percent
+Nonsupervisory food system workers in California with healthcare ,54.0,67.3,,fair,percent
