@@ -33,14 +33,8 @@ class App extends Component {
   }
 
   componentDidMount() {
-    // const user = JSON.parse(localStorage.getItem('admin'))
-    // if(user) {
-    //   this.setState({
-    //     user: user
-    //   })
-    // }
     const admin = localStorage.getItem("admin")
-    if(admin) {
+    if (admin) {
       console.log(admin, "<-------------------------admin")
       const currentAdmin = admin
       this.setState({
@@ -72,15 +66,15 @@ class App extends Component {
         isLogged: true
       })
 
-    } catch(err) {
+    } catch (err) {
       console.log(err, 'this is error from register')
     }
   }
 
-  login = async (loginInfo) =>{
+  login = async (loginInfo) => {
     console.log('login app')
     try {
-      const loginResponse = await fetch (`http://localhost:3030/admin/login-admin`, {
+      const loginResponse = await fetch(`http://localhost:3030/admin/login-admin`, {
         method: 'POST',
         credentials: 'include',
         body: JSON.stringify(loginInfo),
@@ -103,60 +97,57 @@ class App extends Component {
 
       return parsedResponse
 
-
-    } catch (err){
+    } catch (err) {
       alert('sorry, wrong info')
       console.log(err)
     }
   }
 
   logout = async () => {
+    console.log("clicked button")
     try {
       fetch(`http://localhost:3030/admin/logout-admin`)
-      .then(res => {
-        this.setState({
-          isLogged: false
+        .then(res => {
+          this.setState({
+            isLogged: false
+          })
         })
-      })
       localStorage.removeItem('admin');
       localStorage.removeItem('loggedIn');
       this.props.history.push(`/`)
-    } catch(err){
+    } catch (err) {
       console.log(err)
     }
   }
 
-
-
-    render() {
-      const { login } = this.login
-      console.log(this.props)
-        return (
-          <div>
-            <AdminButton />
-            <Navbar logout={this.logout}/>
-            <Switch>
-              {
-                this.state.isLogged
-                ?
-                <Route exact path='/admin-home' render={() => <AdminHome />}/>
-                : 
-                <Route exact path='/' render={(props) =>  <Homepage {...props} />}  />
-              }
-              <Route exact path='/addadmin' render={(props) =>  <AddAdmin register={this.register}  {...props} />} />
-              <Route exact path='/' render={(props) =>  <Homepage {...props} />}  />
-              <Route exact path='/home' render={(props) =>  <Homepage {...props} />}  />
-              <Route exact path='/affordable' render={() => <Affordable  isLogged={this.state.isLogged}/>}/>
-              <Route exact path='/healthy' render={() => <Healthy isLogged={this.state.isLogged}/>}/>
-              <Route exact path='/fair' render={() => <Fair isLogged={this.state.isLogged}/>}/>
-              <Route exact path='/sustainable' render={() => <Sustainable isLogged={this.state.isLogged}/>}/>
-              <Route exact path='/signin' render={() => <SignIn login={this.login}/>} />
-              <Route component={ My404 } />
-            </Switch>
-            <Footer/>
-          </div>
-        )
-    }
+  render() {
+    const { login } = this.login
+    return (
+      <div>
+        <AdminButton logout={this.logout} user={this.state}/>
+        <Navbar />
+        <Switch>
+          {
+            this.state.isLogged
+              ?
+              <Route exact path='/admin-home' render={() => <AdminHome />} />
+              :
+              <Route exact path='/' render={(props) => <Homepage {...props} />} />
+          }
+          <Route exact path='/addadmin' render={(props) => <AddAdmin register={this.register}  {...props} />} />
+          <Route exact path='/' render={(props) => <Homepage {...props} />} />
+          <Route exact path='/home' render={(props) => <Homepage {...props} />} />
+          <Route exact path='/affordable' render={() => <Affordable isLogged={this.state.isLogged} />} />
+          <Route exact path='/healthy' render={() => <Healthy isLogged={this.state.isLogged} />} />
+          <Route exact path='/fair' render={() => <Fair isLogged={this.state.isLogged} />} />
+          <Route exact path='/sustainable' render={() => <Sustainable isLogged={this.state.isLogged} />} />
+          <Route exact path='/signin' render={() => <SignIn login={this.login} />} />
+          <Route component={My404} />
+        </Switch>
+        <Footer user={this.state}/>
+      </div>
+    )
+  }
 }
 
 export default withRouter(App)
