@@ -30,18 +30,18 @@ class Footer extends Component {
             Reserved
           </p>
         </SecondDiv>
-        {/* {
-                    this.props.user.isLogged
-                        ? "working now"
-                        : <Button
-                            component={LinkRoute}
-                            to='/SignIn'
-                            color="inherit"
-                            style={{ margin: '20px', color: 'red', fontWeight: 'bold', position: "absolute", right: "26rem", bottom: "-1120px" }}
-                        >
-                            <i className="fas fa-user-lock"></i>
-                        </Button>
-                } */}
+        {
+          this.props.user.isLogged
+            ? ""
+            : <Button
+              component={LinkRoute}
+              to='/SignIn'
+              color="inherit"
+              style={{ margin: '20px', color: 'red', fontWeight: 'bold', position: "absolute", right: "26rem", bottom: "-1120px" }}
+            >
+              <i className="fas fa-user-lock"></i>
+            </Button>
+        }
       </div>
     )
   }
