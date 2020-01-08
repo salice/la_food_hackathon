@@ -1,0 +1,60 @@
+indicator,2013,2017,2020,value,datatype
+Acres of agricultural land-LA Foodshed,8046054.0,8011770.0,7964494.0,sustainable,whole
+Acres of agricultural land converted to urban and built land-LA Foodshed,12599.0,10660.0,15577.0,sustainable,whole
+Acres of Land in farms-LA County,108463.0,91689.0,57809.0,sustainable,whole
+Acres of grazing land-LA County,231287.0,235826.0,239037.0,sustainable,whole
+Number of Farms-LA Foodshed,23001.0,20308.0,18117.0,sustainable,whole
+Number of Farms-LA County,1734.0,1294.0,1035.0,sustainable,whole
+Number of Farms-LA City,26.0,31.0,,sustainable,whole
+Average farm size (acres)-LA Foodshed,396.0,398.0,408.0,sustainable,whole
+Average farm size (acres)-LA County,63.0,71.0,56.0,sustainable,whole
+Farms transitioning into USDA National Organic Program-LA Foodshed,469.0,130.0,99.0,sustainable,whole
+Microfarms-LA Foodshed,7675.0,7369.0,8998.0,sustainable,whole
+Microfarms-LA County,446.0,510.0,722.0,sustainable,whole
+Percent of Small Farms-LA Foodshed,87.0,87.0,86.0,sustainable,percent
+Acres harvested in Small Farms-LA Foodshed,173266.0,167308.0,142844.0,sustainable,whole
+Percent of Mid-Sized Farms-LA Foodshed,6.0,5.0,6.0,sustainable,percent
+Acres harvested in Mid Sized Farms-LA Foodshed,156992.0,153007.0,155679.0,sustainable,whole
+Percent of Large Farms-LA Foodshed,7.0,8.0,8.0,sustainable,percent
+Acres harvested in Large Farms-LA Foodshed,1380895.0,1464320.0,1443227.0,sustainable,whole
+Percent of acres harvested-Large Farms,80.7,82.1,82.9,sustainable,percent
+Percent of Large Farms by Agricultural Sales-LA Foodshed,9.0,10.0,11.4,sustainable,percent
+Percent of Agricultural Sales made by Large Farms,93.0,94.0,94.2,sustainable,percent
+Farms with direct sales-LA Foodshed,2043.0,2330.0,2264.0,sustainable,whole
+Farms with direct sales-LA County,168.0,210.0,105.0,sustainable,whole
+Value of direct sales-LA Foodshed,45842000.0,44916000.0,218719000.0,sustainable,whole
+Value of direct sales-LA County,3541000.0,2369000.0,1384000.0,sustainable,whole
+"Total fruit, vegetable, and nut production value-LA Foodshed ",11387907856.0,12566318008.0,8146710000.0,sustainable,whole
+Total market value of Agricultural Production-LA County,325880000.0,193097000.0,154608000.0,sustainable,whole
+Honey Operations with production-LA County,18.0,33.0,33.0,sustainable,whole
+Acres of Almond Crops-LA Foodshed,145288.0,158726.0,173996.0,sustainable,whole
+Acres of Alfalfa Hay crops-LA Foodshed,281259.0,268436.0,272075.0,sustainable,whole
+Women-Operated Farms-LA Foodshed,5098.0,4176.0,8334.0,sustainable,whole
+Minority-Operated Farms-LA Foodshed,3181.0,1840.0,2842.0,sustainable,whole
+American Indian or Alaska Native Operated Farms,,,236.0,sustainable,whole
+Asian Operated Farms,,,1071.0,sustainable,whole
+Black or African American Operated Farms,,,115.0,sustainable,whole
+Native Hawaiian or Other Pacific Islander operated farm,,,81.0,sustainable,whole
+Certified Farmers Markets-LA County,148.0,138.0,132.0,sustainable,whole
+Certified Farmers Markets-LA City,72.0,56.0,40.0,sustainable,whole
+Percent of Farmers Markets that accept EBT-LA County,39.0,63.0,81.1,sustainable,percent
+Percent of Farmers Markets that accept EBT-LA City,38.0,96.0,87.5,sustainable,percent
+Community Gardens-LA County,118.0,158.0,,sustainable,whole
+Community Gardens-LA City,48.0,77.0,,sustainable,whole
+School Gardens-LA County,749.0,425.0,,sustainable,whole
+School Gardens-LA City,312.0,188.0,,sustainable,whole
+Nurseries-LA County,268.0,368.0,,sustainable,whole
+Nurseries-LA City,89.0,97.0,,sustainable,whole
+Total tons of pesticides applied-LA Foodshed,27945.0,26979.0,23386.0,sustainable,whole
+Percent of agricultural pesticides applied-LA Foodshed,87.0,85.0,86.0,sustainable,percent
+Percent of agricultural greenhouse gas emissions-CA,7.6,7.9,7.6,sustainable,percent
+Percent of agricultural greenhouse gas emissions for livestock production-CA,67.7,66.1,70.0,sustainable,percent
+Amount of Residential Food Waste Recycled (Tons) through Bureau of Sanitation Waste Reduction and Recycling Programs,20.0,57.0,,sustainable,whole
+Amount of Restaurant Food Waste Recycled (Tons) through Bureau of Sanitation Waste Reduction and Recycling Programs,15492.0,43303.0,,sustainable,whole
+Tons of food recovered and redistributed by Food Finders-LA County,4153471.42,3805447.0,,sustainable,whole
+Tons of food recovered and redistributed by Food Finders-LA City ,642940.0,2953459.0,,sustainable,whole
+Pounds of produce recovered by Food Forward-LA Foodshed,2083546.25,8811283.0,23100000.0,sustainable,whole
+Total Food Waste from CalRecycle Disposal Facility,5083364.0,5591179.0,,sustainable,whole
+Percent of waste that is food from CalRecycle Disposal Facility,16.5,18.1,,sustainable,percent
+Percentage of Certified Organic Farms-LA Foodshed,4.9,5.2,6.7,sustainable,percent
+Percentage of Certified Organic Farms-LA County,1.6,2.1,2.9,sustainable,percent
