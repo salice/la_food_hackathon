@@ -33,16 +33,9 @@ class App extends Component {
   }
 
   componentDidMount() {
-    // const user = JSON.parse(localStorage.getItem('admin'))
-    // if(user) {
-    //   this.setState({
-    //     user: user
-    //   })
-    // }
-    const admin = localStorage.getItem("admin")
+    const admin = localStorage.getItem('admin')
     if(admin) {
       console.log(admin, "<-------------------------admin")
-      const currentAdmin = admin
       this.setState({
         isLogged: true,
         user: admin
@@ -71,7 +64,6 @@ class App extends Component {
         loading: false,
         isLogged: true
       })
-
     } catch(err) {
       console.log(err, 'this is error from register')
     }
