@@ -245,6 +245,14 @@ class Sustainable extends Component {
             <ContainModal>{dataModalProperty}</ContainModal>
           </DivDataModal>
         ) : null}
+        {Object.keys(currentData).length ? (
+          <ToolKit>
+            <NewSustainableChart
+              sustainableData={sustainableData}
+              currentData={currentData}
+            />
+          </ToolKit>
+        ) : null}
         <Row>
           {this.props.isLogged ? (
             <TableDataHeader>ADMIN</TableDataHeader>
@@ -355,14 +363,6 @@ class Sustainable extends Component {
               />
             </ToolKit>
           ) : null} */}
-          {Object.keys(currentData).length ? (
-            <ToolKit>
-              <NewSustainableChart
-                sustainableData={sustainableData}
-                currentData={currentData}
-              />
-            </ToolKit>
-          ) : null}
         </ChartDiv>
       </Container>
     )

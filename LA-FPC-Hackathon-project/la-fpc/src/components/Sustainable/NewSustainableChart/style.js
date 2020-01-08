@@ -10,12 +10,7 @@ const Canvas = styled.div`
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  /* margin: 1em 0; */
-
-  /* 
-  h3 {
-    margin: 1em 0;
-  } */
+  background-color: #ffffff;
 
   .title-div {
     width: 95vw;

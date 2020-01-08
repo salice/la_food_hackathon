@@ -10,11 +10,23 @@ import {
   Tooltip,
   Legend
 } from "recharts"
+import domtoimage from "dom-to-image"
+import { saveAs } from "file-saver"
 import FPCLogo from "./FPCLogo.png"
 
 class NewSustainableChart extends Component {
   state = {
     data: []
+  }
+
+  savePng = () => {
+    const { data } = this.state
+
+    domtoimage
+      .toBlob(document.getElementById("graph-to-save"), {
+        bgcolor: "#151515"
+      })
+      .then(blob => saveAs(blob, `${data.indicator}.png`))
   }
 
   componentDidMount() {
@@ -74,29 +86,33 @@ class NewSustainableChart extends Component {
     const { data } = this.state
     // const { currentData } = this.props
 
+    console.log(data)
     const dataToRender = [
       {
         name: "2013",
         [data.indicator]: data[2013],
-        amt: data[2013] + 1
+        amt: data.datatype === "percent" ? 100 : data[2013]
       },
       {
         name: "2017",
         [data.indicator]: data[2017],
-        amt: data[2017] + 1
+        amt: data.datatype === "percent" ? 100 : data[2017]
       },
       {
         name: "2020",
         [data.indicator]: data[2020],
-        amt: data[2020] + 1
+        amt: data.datatype === "percent" ? 100 : data[2020]
       }
     ]
     return (
-      <Canvas>
+      <Canvas id="graph-to-save">
         <div className="title-div">
           <img src={FPCLogo} style={({ width: "4em" }, { height: "4em" })} />
           <h2>LAPFC Food System Dashboard</h2>
           <h2 style={{ color: "#78c930" }}>{data.indicator}</h2>
+          <button onClick={this.savePng} data-html2canvas-ignore>
+            Save Result
+          </button>
         </div>
         <BarChart
           width={1200}
@@ -118,9 +134,21 @@ class NewSustainableChart extends Component {
         </BarChart>
         <div></div>
         <div className="title-div bottom-div">
-          <h3>{data[2013]}</h3>
-          <h3>{data[2017]}</h3>
-          <h3>{data[2020]}</h3>
+          {data.datatype === "percent" ? (
+            <h3>{data[2013]}%</h3>
+          ) : (
+            <h3>{data[2013]}</h3>
+          )}
+          {data.datatype === "percent" ? (
+            <h3>{data[2017]}%</h3>
+          ) : (
+            <h3>{data[2017]}</h3>
+          )}
+          {data.datatype === "percent" ? (
+            <h3>{data[2020]}%</h3>
+          ) : (
+            <h3>{data[2020]}</h3>
+          )}
         </div>
       </Canvas>
     )
