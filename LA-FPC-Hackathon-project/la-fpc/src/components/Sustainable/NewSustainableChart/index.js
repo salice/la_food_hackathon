@@ -27,7 +27,7 @@ class NewSustainableChart extends Component {
       .toBlob(document.getElementById("graph-to-save"), {
         filter: node => node.id !== "button-to-ignore"
       })
-      .then(blob => saveAs(blob, `${data.indicator}.png`))
+      .then(blob => saveAs(blob, `LAPFC ${data.indicator}.png`))
   }
 
   componentDidMount() {
