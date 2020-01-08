@@ -1,0 +1,115 @@
+indicator,2013,2017,2020,value,datatype
+Grocery Stores-LA County,2011.0,2056.0,2637.0,health,whole
+Grocery Stores-South LA,86.0,88.0,91.0,health,whole
+Grocery Stores-East LA,20.0,19.0,22.0,health,whole
+Grocery Stores-West LA,48.0,54.0,47.0,health,whole
+Convenience Stores-LA County,621.0,648.0,657.0,health,whole
+Liquor Stores-LA County,1135.0,1172.0,1198.0,health,whole
+Liquor Stores-South LA,106.0,114.0,119.0,health,whole
+Liquor Stores-East LA,19.0,13.0,13.0,health,whole
+Liquor Stores-West LA,34.0,29.0,32.0,health,whole
+Farms-LA County,182.0,190.0,,health,whole
+Farms-LA City,26.0,31.0,,health,whole
+Urban Farms-South LA,1.0,9.0,,health,whole
+Urban Farms-East LA,2.0,0.0,,health,whole
+Urban Farms-West LA,2.0,4.0,,health,whole
+Farms with direct sales-LA County,168.0,210.0,105.0,health,whole
+Value of direct sales-LA County,3541000.0,2369000.0,1384000.0,health,whole
+Certified Farmers Markets-LA County,148.0,138.0,132.0,health,whole
+Certified Farmers Markets-LA City,72.0,56.0,40.0,health,whole
+Farmers Markets-South LA,9.0,8.0,5.0,health,whole
+Farmers Markets-East LA,2.0,1.0,1.0,health,whole
+Farmers Markets-West LA,16.0,13.0,12.0,health,whole
+Community Gardens-LA County,118.0,158.0,,health,whole
+Community Gardens-LA City,48.0,77.0,,health,whole
+Community Gardens-South LA,10.0,19.0,,health,whole
+Community Gardens-East LA,1.0,3.0,,health,whole
+Community Gardens-West LA,4.0,5.0,,health,whole
+School gardens-LA County,749.0,425.0,,health,whole
+School Gardens-LA City,312.0,188.0,,health,whole
+Nurseries-LA County,268.0,368.0,,health,whole
+Nurseries-LA City,89.0,97.0,,health,whole
+Adults often able to find fresh fruits and vegetables in neighborhood,86.7,86.5,86.5,health,percent
+Adults often able to afford fresh fruits and vegetables in neighborhood,76.5,75.7,79.2,health,percent
+Adults who consume 5+ servings of fruit and vegetables per day,16.2,14.7,12.1,health,percent
+Teens who consume 5+ servings of fruit and vegetables per day,24.1,26.7,32.4,health,percent
+Children (2-11) who consume 5+ servings of fruit and vegetables per day,25.8,31.2,24.6,health,percent
+Adults and children who consume fast food at least once a week,68.5,71.5,72.5,health,percent
+Adults who drink at least one soda or sweetened drink a day,35.5,31.4,,health,percent
+Children who drink at least one soda or sweetened drink a day,38.3,39.2,37.2,health,percent
+Percentage of adults who consume 5 or more servings of fruit and vegetables a day-African American,12.4,12.1,10.4,health,percent
+Percentage of adults who consume 5 or more servings of fruit and vegetables a day-Asian,17.5,11.8,7.2,health,percent
+Percentage of adults who consume 5 or more servings of fruit and vegetables a day-Latino,13.0,12.4,9.7,health,percent
+Percentage of adults who consume 5 or more servings of fruit and vegetables a day-American Indian/Alaska Native,16.3,11.7,,health,percent
+Percentage of adults who consume 5 or more servings of fruit and vegetables a day-Native Hawaiian or Pacific Islander,,,,health,percent
+Percentage of adults who consume 5 or more servings of fruit and vegetables a day-White,21.0,20.1,18.1,health,percent
+Percentage of adults who consume fast food at least once a week-Antelope Valley,69.5,70.3,79.4,health,percent
+Percentage of adults who consume fast food at least once a week-San Fernando,64.0,68.9,74.9,health,percent
+Percentage of adults who consume fast food at least once a week-San Gabriel,69.8,71.5,70.8,health,percent
+Percentage of adults who consume fast food at least once a week-Metro,63.0,66.7,64.5,health,percent
+Percentage of adults who consume fast food at least once a week-South LA,74.3,81.8,71.9,health,percent
+Percentage of adults who consume fast food at least once a week-East LA,78.6,82.3,79.6,health,percent
+Percentage of adults who consume fast food at least once a week-South Bay,71.1,71.5,69.4,health,percent
+Percentage of adults who consume fast food at least once a week-West LA,51.9,52.4,50.0,health,percent
+Percentage of adults who drink at least one soda or sweetened drink a day-African American,35.5,41.0,,health,percent
+Percentage of adults who drink at least one soda or sweetened drink a day-Asian,20.6,25.5,,health,percent
+Percentage of adults who drink at least one soda or sweetened drink a day-Latino,47.7,39.0,,health,percent
+Percentage of adults who drink at least one soda or sweetened drink a day-Native Hawaiian and Other Pacific Islander,0.0,15.7,,health,percent
+Percentage of adults who drink at least one soda or sweetened drink a day-White,26.4,21.0,,health,percent
+Percent of adults who are overweight-African American,38.9,32.0,32.5,health,percent
+Percent of adults who are overweight-Asian,32.9,30.4,29.5,health,percent
+Percent of adults who are overweight-Latino,40.6,39.3,35.8,health,percent
+Percent of adults who are overweight-American Indian/Alaskan Native,45.2,54.2,32.5,health,percent
+Percent of adults who are overweight-Native Hawaiian or Pacific Islander,45.9,27.3,31.8,health,percent
+Percent of adults who are overweight-White,34.0,35.0,34.2,health,percent
+Percent of adults who are obese,,,,health,percent
+Percent of adults who are obese-All,37.1,35.9,27.7,health,percent
+Percent of adults who are obese-African American,31.0,32.9,32.5,health,percent
+Percent of adults who are obese-Asian,8.9,9.3,9.5,health,percent
+Percent of adults who are obese-Latino,31.6,30.9,37.0,health,percent
+Percent of adults who are obese-American Indian/Alaskan Native,25.8,19.1,38.0,health,percent
+Percent of adults who are obese-Native Hawaiian or Pacific Islander,,15.0,52.0,health,percent
+Percent of adults who are obese-White,18.0,18.0,21.9,health,percent
+"Percent of adults who are obese-Children in grades 5, 7, and 9",22.4,21.2,22.8,health,percent
+Percentage of adults ever diagnosed with Diabetes-African American,12.6,13.7,14.4,health,percent
+Percentage of adults ever diagnosed with Diabetes-Asian,9.3,8.2,8.2,health,percent
+Percentage of adults ever diagnosed with Diabetes-Latino,9.5,10.7,13.6,health,percent
+Percentage of adults ever diagnosed with Diabetes-American Indian/Alaskan Native,,15.2,,health,percent
+Percentage of adults ever diagnosed with Diabetes-Native Hawaiian and Other Pacific Islanders,,29.9,,health,percent
+Percentage of adults ever diagnosed with Diabetes-White,8.5,8.2,8.8,health,percent
+Percentage of adults ever diagnosed with Diabetes-Antelope Valley,10.7,13.9,13.1,health,percent
+Percentage of adults ever diagnosed with Diabetes-San Fernando,9.3,8.2,10.1,health,percent
+Percentage of adults ever diagnosed with Diabetes-San Gabriel,7.7,9.1,11.0,health,percent
+Percentage of adults ever diagnosed with Diabetes-Metro,7.3,11.6,12.1,health,percent
+Percentage of adults ever diagnosed with Diabetes-South LA,10.1,12.3,14.7,health,percent
+Percentage of adults ever diagnosed with Diabetes-East LA,15.1,11.2,11.4,health,percent
+Percentage of adults ever diagnosed with Diabetes-South Bay,9.8,10.4,12.5,health,percent
+Percentage of adults ever diagnosed with Diabetes-West LA,5.5,4.5,6.3,health,percent
+Percentage of adults ever diagnosed with high cholesterol-African American,39.2,33.3,35.9,health,percent
+Percentage of adults ever diagnosed with high cholesterol-Asian,25.3,20.4,21.9,health,percent
+Percentage of adults ever diagnosed with high cholesterol-Latino,18.0,19.7,22.8,health,percent
+Percentage of adults ever diagnosed with high cholesterol-American Indian/Alaskan Native,43.3,24.2,25.6,health,percent
+Percentage of adults ever diagnosed with high cholesterol-Native Hawaiian and Other Pacific Islander,,36.8,,health,percent
+Percentage of adults ever diagnosed with high cholesterol-White,27.4,27.5,27.3,health,percent
+Percentage of adults ever diagnosed with high cholesterol-Antelope Valley,29.0,30.3,30.7,health,percent
+Percentage of adults ever diagnosed with high cholesterol-San Fernando,23.9,23.7,24.2,health,percent
+Percentage of adults ever diagnosed with high cholesterol-San Gabriel,25.4,25.3,25.5,health,percent
+Percentage of adults ever diagnosed with high cholesterol-Metro,20.4,22.4,25.0,health,percent
+Percentage of adults ever diagnosed with high cholesterol-South LA,28.4,24.5,27.6,health,percent
+Percentage of adults ever diagnosed with high cholesterol-East LA,24.4,22.8,23.2,health,percent
+Percentage of adults ever diagnosed with high cholesterol-South Bay,24.5,23.1,27.6,health,percent
+Percentage of adults ever diagnosed with high cholesterol-West LA,17.1,17.1,19.6,health,percent
+Percentage of adults ever diagnosed with high cholesterol-African-American,26.9,23.5,23.9,health,percent
+Percentage of adults ever diagnosed with high cholesterol-Asian,26.3,24.5,25.6,health,percent
+Percentage of adults ever diagnosed with high cholesterol-Latino,22.2,22.4,26.3,health,percent
+Percentage of adults ever diagnosed with high cholesterol-American Indian/Alaskan Native,38.6,23.9,13.1,health,percent
+Percentage of adults ever diagnosed with high cholesterol-Native Hawaiian and Other Pacific Islander,,33.3,30.5,health,percent
+Percentage of adults ever diagnosed with high cholesterol-White,29.7,29.8,29.6,health,percent
+Percentage of adults ever diagnosed with high cholesterol-Antelope Valley,26.4,28.3,30.3,health,percent
+Percentage of adults ever diagnosed with high cholesterol-San Fernando,28.4,24.9,24.7,health,percent
+Percentage of adults ever diagnosed with high cholesterol-San Gabriel,23.9,23.7,27.7,health,percent
+Percentage of adults ever diagnosed with high cholesterol-Metro,24.1,25.7,28.9,health,percent
+Percentage of adults ever diagnosed with high cholesterol-East LA,25.4,27.6,24.9,health,percent
+Percentage of adults ever diagnosed with high cholesterol-South Bay,26.5,26.5,29.0,health,percent
+Percentage of adults ever diagnosed with high cholesterol-South LA,22.9,22.2,26.5,health,percent
+Percentage of adults ever diagnosed with high cholesterol-West LA,24.8,24.4,24.8,health,percent
