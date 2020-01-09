@@ -1,20 +1,21 @@
+
 import React from 'react'
 import { useState } from 'react'
 import { TextField } from '@material-ui/core';
-
-function SearchBar(){
+function SearchBar(props){
    const [data, setData] = useState({})
-
+   const [filtered, setFiltered] = useState([])
    const handleChange = (e) => {
        getData(e.target.value)
    }
-   const getData = async(data) => {
-       const dataResponse = await fetch(`http://localhost:3030/data/search/${data}`)
-       const json = await dataResponse.json()
-
-       setData({
-           json
-       })
+   const getData = async(data) => { 
+       console.log(data, props.sustainableData, props.searching.sustainableData)
+       if(props.searching.sustainableData) {
+            const filly = props.searching.sustainableData.filter((elem, i) => {
+                return elem.indicator.toLowerCase().includes(data)
+            });
+            console.log(filly, 'fill data');        
+       }
    }
    return(
        <div>
@@ -22,5 +23,6 @@ function SearchBar(){
        </div>
    )
 }
+
 
 export default SearchBar
