@@ -1,3 +1,4 @@
+
 import React from 'react'
 import { useState } from 'react'
 import { TextField } from '@material-ui/core';
@@ -22,4 +23,6 @@ function SearchBar(props){
        </div>
    )
 }
+
+
 export default SearchBar
