@@ -191,6 +191,7 @@ class Sustainable extends Component {
       currentData
     })
   }
+<<<<<<< HEAD
   handleForce = async file => {
     const holder = []
     for (let i = 1; i < file.length; i++) {
@@ -228,6 +229,8 @@ class Sustainable extends Component {
     // }
     // )
   }
+=======
+>>>>>>> 3115f9e7d605ffb791f62ed1ff95081cd1f12c08
 
   render() {
     const {
@@ -358,17 +361,7 @@ class Sustainable extends Component {
           })}
         </Table>
         {this.props.isLogged ? (
-          <div style={{ position: "relative", top: "10px" }}>
-            <SustainableData addData={this.addData} />
-            {/* <CSVReader
-              cssClass="csv-reader-input"
-              label="Upload"
-              onFileLoaded={this.handleForce}
-              onError={this.handleDarkSideForce}
-              inputId="ObiWan"
-              inputStyle={{ color: "red" }}
-            /> */}
-          </div>
+          <SustainableData addData={this.addData} />
         ) : null}
         <ChartDiv>
           {/* <ToolKit>
