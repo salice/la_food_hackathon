@@ -2,12 +2,13 @@ import React, { Component } from "react"
 import { withRouter } from "react-router-dom"
 import SustainableData from "./SustainableData"
 import EditSustainable from "./EditSustainable"
-import SearchBar from '../SearchBar'
+import SearchBar from "../SearchBar"
 // import Donut from "./SustainableChart"
 import NewSustainableChart from "./NewSustainableChart"
 import Button from "@material-ui/core/Button"
 import EditIcon from "@material-ui/icons/Edit"
 import DeleteIcon from "@material-ui/icons/Delete"
+// import CSVReader from "react-csv-reader"
 
 import {
   Container,
@@ -190,7 +191,7 @@ class Sustainable extends Component {
       currentData
     })
   }
-  handleForce = async (file) => {
+  handleForce = async file => {
     const holder = []
     for (let i = 1; i < file.length; i++) {
       const newObj = {
@@ -199,20 +200,22 @@ class Sustainable extends Component {
         [file[0][2]]: file[i][2],
         [file[0][3]]: file[i][3],
         [file[0][4]]: file[i][4],
-        [file[0][5]]: file[i][5],
+        [file[0][5]]: file[i][5]
       }
       holder.push(newObj)
     }
     console.log(holder, "<-----------------------------------holder")
     try {
-      const whatsThis = await (await (fetch(`http://localhost:3030/data/addingcsv`, {
-        method: "POST",
-        credentials: 'include',
-        body: JSON.stringify(holder),
-        headers: {
-          'Content-Type': 'application/json'
-        }
-      }))).json()
+      const whatsThis = await (
+        await fetch(`http://localhost:3030/data/addingcsv`, {
+          method: "POST",
+          credentials: "include",
+          body: JSON.stringify(holder),
+          headers: {
+            "Content-Type": "application/json"
+          }
+        })
+      ).json()
       console.log(whatsThis, "<-------------------------this is?")
     } catch (err) {
       console.log(err)
@@ -357,14 +360,14 @@ class Sustainable extends Component {
         {this.props.isLogged ? (
           <div style={{ position: "relative", top: "10px" }}>
             <SustainableData addData={this.addData} />
-            <CSVReader
+            {/* <CSVReader
               cssClass="csv-reader-input"
               label="Upload"
               onFileLoaded={this.handleForce}
               onError={this.handleDarkSideForce}
               inputId="ObiWan"
-              inputStyle={{ color: 'red' }}
-            />
+              inputStyle={{ color: "red" }}
+            /> */}
           </div>
         ) : null}
         <ChartDiv>
