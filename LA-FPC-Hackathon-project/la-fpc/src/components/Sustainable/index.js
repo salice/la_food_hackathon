@@ -190,41 +190,6 @@ class Sustainable extends Component {
       currentData
     })
   }
-  handleForce = async (file) => {
-    const holder = []
-    for (let i = 1; i < file.length; i++) {
-      const newObj = {
-        [file[0][0]]: file[i][0],
-        [file[0][1]]: file[i][1],
-        [file[0][2]]: file[i][2],
-        [file[0][3]]: file[i][3],
-        [file[0][4]]: file[i][4],
-        [file[0][5]]: file[i][5],
-      }
-      holder.push(newObj)
-    }
-    console.log(holder, "<-----------------------------------holder")
-    try {
-      const whatsThis = await (await (fetch(`http://localhost:3030/data/addingcsv`, {
-        method: "POST",
-        credentials: 'include',
-        body: JSON.stringify(holder),
-        headers: {
-          'Content-Type': 'application/json'
-        }
-      }))).json()
-      console.log(whatsThis, "<-------------------------this is?")
-    } catch (err) {
-      console.log(err)
-    }
-    // file[1].map((e, i) => {
-    //   const array = Object.assign(...file[0].map(key => ({
-    //     [key]: e
-    //   })));
-    //   console.log(array, "<---------------------------------------")
-    // }
-    // )
-  }
 
   render() {
     const {
@@ -355,17 +320,7 @@ class Sustainable extends Component {
           })}
         </Table>
         {this.props.isLogged ? (
-          <div style={{ position: "relative", top: "10px" }}>
-            <SustainableData addData={this.addData} />
-            <CSVReader
-              cssClass="csv-reader-input"
-              label="Upload"
-              onFileLoaded={this.handleForce}
-              onError={this.handleDarkSideForce}
-              inputId="ObiWan"
-              inputStyle={{ color: 'red' }}
-            />
-          </div>
+          <SustainableData addData={this.addData} />
         ) : null}
         <ChartDiv>
           {/* <ToolKit>
