@@ -14,7 +14,8 @@ function SearchBar(props){
             const filly = props.searching.sustainableData.filter((elem, i) => {
                 return elem.indicator.toLowerCase().includes(data)
             });
-            console.log(filly, 'fill data');        
+            console.log(filly, 'fill data');
+            props.set(filly)        
        }
    }
    return(

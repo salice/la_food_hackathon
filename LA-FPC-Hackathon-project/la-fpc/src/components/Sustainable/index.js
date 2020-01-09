@@ -46,11 +46,26 @@ class Sustainable extends Component {
       group: "",
       error: ""
     },
-    currentData: {}
+    currentData: {},
+    allData: []
   }
 
   componentDidMount = () => {
     this.getData()
+  }
+
+  filteredData = (fil) => {
+    if(fil.length > 0){
+      this.setState({
+        sustainableData: fil
+      })
+    } else {
+      console.log("hitting")
+      this.setState({
+        sustainableData: [...this.state.allData]
+      })
+    }
+    console.log(this.state.allData, '<---this.state.alldata')
   }
 
   getData = async () => {
@@ -216,16 +231,11 @@ class Sustainable extends Component {
         }
       }))).json()
       console.log(whatsThis, "<-------------------------this is?")
+      // this.getData()
+      this.componentDidMount()
     } catch (err) {
       console.log(err)
     }
-    // file[1].map((e, i) => {
-    //   const array = Object.assign(...file[0].map(key => ({
-    //     [key]: e
-    //   })));
-    //   console.log(array, "<---------------------------------------")
-    // }
-    // )
   }
 
   render() {
@@ -291,7 +301,7 @@ class Sustainable extends Component {
             />
           </ToolKit>
         ) : null}
-        <SearchBar searching={this.state} />
+        <SearchBar searching={this.state} set={this.filteredData}/>
         <Row>
           {this.props.isLogged ? (
             <TableDataHeader>ADMIN</TableDataHeader>
