@@ -2,13 +2,14 @@ import React, { Component } from "react"
 import { withRouter } from "react-router-dom"
 import SustainableData from "./SustainableData"
 import EditSustainable from "./EditSustainable"
-import SearchBar from '../SearchBar'
-import CSVReader from 'react-csv-reader'
+import SearchBar from "../SearchBar"
+import CSVReader from "react-csv-reader"
 // import Donut from "./SustainableChart"
 import NewSustainableChart from "./NewSustainableChart"
 import Button from "@material-ui/core/Button"
 import EditIcon from "@material-ui/icons/Edit"
 import DeleteIcon from "@material-ui/icons/Delete"
+// import CSVReader from "react-csv-reader"
 
 import {
   Container,
@@ -66,7 +67,7 @@ class Sustainable extends Component {
       const sustainData = oldData.data.filter(
         data => data.value === "sustainable"
       )
-      console.log("hitting", sustainData[0])
+      console.log("hitting the rerender", sustainData[0])
       this.setState({
         sustainableData: sustainData,
         currentData: sustainData[0]
@@ -192,7 +193,8 @@ class Sustainable extends Component {
     })
   }
 
-  handleForce = async (file) => {
+  handleForce = async file => {
+    const { sustainableData } = this.state
     const holder = []
     for (let i = 1; i < file.length; i++) {
       const newObj = {
@@ -201,21 +203,27 @@ class Sustainable extends Component {
         [file[0][2]]: file[i][2],
         [file[0][3]]: file[i][3],
         [file[0][4]]: file[i][4],
-        [file[0][5]]: file[i][5],
+        [file[0][5]]: file[i][5]
       }
       holder.push(newObj)
     }
+    this.setState({
+      sustainableData: [...sustainableData, ...holder]
+    })
     console.log(holder, "<-----------------------------------holder")
     try {
-      const whatsThis = await (await (fetch(`http://localhost:3030/data/addingcsv`, {
-        method: "POST",
-        credentials: 'include',
-        body: JSON.stringify(holder),
-        headers: {
-          'Content-Type': 'application/json'
-        }
-      }))).json()
+      const whatsThis = await (
+        await fetch(`http://localhost:3030/data/addingcsv`, {
+          method: "POST",
+          credentials: "include",
+          body: JSON.stringify(holder),
+          headers: {
+            "Content-Type": "application/json"
+          }
+        })
+      ).json()
       console.log(whatsThis, "<-------------------------this is?")
+      // this.getData()
     } catch (err) {
       console.log(err)
     }
@@ -365,7 +373,7 @@ class Sustainable extends Component {
               onFileLoaded={this.handleForce}
               onError={this.handleDarkSideForce}
               inputId="ObiWan"
-              inputStyle={{ color: 'red' }}
+              inputStyle={{ color: "red" }}
             />
           </div>
         ) : null}
