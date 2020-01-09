@@ -67,7 +67,7 @@ class Sustainable extends Component {
       const sustainData = oldData.data.filter(
         data => data.value === "sustainable"
       )
-      console.log("hitting", sustainData[0])
+      console.log("hitting the rerender", sustainData[0])
       this.setState({
         sustainableData: sustainData,
         currentData: sustainData[0]
@@ -194,6 +194,7 @@ class Sustainable extends Component {
   }
 
   handleForce = async file => {
+    const { sustainableData } = this.state
     const holder = []
     for (let i = 1; i < file.length; i++) {
       const newObj = {
@@ -206,6 +207,9 @@ class Sustainable extends Component {
       }
       holder.push(newObj)
     }
+    this.setState({
+      sustainableData: [...sustainableData, ...holder]
+    })
     console.log(holder, "<-----------------------------------holder")
     try {
       const whatsThis = await (
@@ -219,6 +223,7 @@ class Sustainable extends Component {
         })
       ).json()
       console.log(whatsThis, "<-------------------------this is?")
+      // this.getData()
     } catch (err) {
       console.log(err)
     }
