@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import { withRouter } from "react-router-dom"
 import SustainableData from "./SustainableData"
 import EditSustainable from "./EditSustainable"
+import SearchBar from '../SearchBar'
 // import Donut from "./SustainableChart"
 import NewSustainableChart from "./NewSustainableChart"
 import Button from "@material-ui/core/Button"
@@ -253,6 +254,7 @@ class Sustainable extends Component {
             />
           </ToolKit>
         ) : null}
+        <SearchBar searching={this.state} />
         <Row>
           {this.props.isLogged ? (
             <TableDataHeader>ADMIN</TableDataHeader>
