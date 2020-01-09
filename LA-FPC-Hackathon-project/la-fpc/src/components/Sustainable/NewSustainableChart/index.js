@@ -13,6 +13,8 @@ import {
 import domtoimage from "dom-to-image"
 import { saveAs } from "file-saver"
 import FPCLogo from "./FPCLogo.png"
+import Arrow from "./arrow.svg"
+import Arrow2 from "./arrow2.svg"
 import Button from "@material-ui/core/Button"
 
 class NewSustainableChart extends Component {
@@ -141,16 +143,31 @@ class NewSustainableChart extends Component {
             ) : (
               <h3>{data[2013]}</h3>
             )}
-            {data.datatype === "percent" ? (
-              <h3>{data[2017]}%</h3>
-            ) : (
-              <h3>{data[2017]}</h3>
-            )}
-            {data.datatype === "percent" ? (
-              <h3>{data[2020]}%</h3>
-            ) : (
-              <h3>{data[2020]}</h3>
-            )}
+            <div>
+              {data.datatype === "percent" ? (
+                <h3>{data[2017]}%</h3>
+              ) : (
+                <h3>{data[2017]}</h3>
+              )}
+              {Number(data[2017]) > Number(data[2013]) ? (
+                <img className="scale" src={Arrow} />
+              ) : (
+                <img className="scale" src={Arrow2} />
+              )}
+              {/* <img src={Arrow} className={data[2017] > data[2013] ? ".rotate" : ""} /> */}
+            </div>
+            <div>
+              {data.datatype === "percent" ? (
+                <h3>{data[2020]}%</h3>
+              ) : (
+                <h3>{data[2020]}</h3>
+              )}
+              {Number(data[2020]) > Number(data[2017]) ? (
+                <img className="scale" src={Arrow} />
+              ) : (
+                <img className="scale" src={Arrow2} />
+              )}
+            </div>
           </div>
         </div>
       </Canvas>
