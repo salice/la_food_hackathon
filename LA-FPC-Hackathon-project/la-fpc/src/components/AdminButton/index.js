@@ -42,7 +42,7 @@ class AdminButton extends Component {
             </Grid>
             {console.log(this.props, "<------------------from admin button")}
             <Grid item xs style={{ textAlign: "right" }}>
-              {/* {
+              {
                 this.props.user.isLogged
                   ? <Button
                     component={LinkRoute}
@@ -53,7 +53,7 @@ class AdminButton extends Component {
                     Logout
                 </Button>
                   : ""
-              } */}
+              }
               <Button
                 component={LinkRoute}
                 to="/"

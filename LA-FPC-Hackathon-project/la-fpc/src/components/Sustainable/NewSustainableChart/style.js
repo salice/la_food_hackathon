@@ -32,5 +32,9 @@ const Canvas = styled.div`
   .bottom-div {
     width: 80vw;
   }
+  .scale {
+    width: 2em;
+    height: 2em;
+  }
 `
 export default Canvas

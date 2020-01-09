@@ -131,11 +131,11 @@ class App extends Component {
 
   render() {
     const { login } = this.login
-    console.log(this.props)
+    console.log(this.state, "<--------------------------------------app level")
     return (
       <div>
-        <AdminButton />
-        <Navbar logout={this.logout} />
+        <AdminButton logout={this.logout} user={this.state}/>
+        <Navbar />
         <Switch>
           {this.state.isLogged ? (
             <Route exact path="/admin-home" render={() => <AdminHome />} />
@@ -176,7 +176,7 @@ class App extends Component {
           />
           <Route component={My404} />
         </Switch>
-        <Footer />
+        <Footer user={this.state}/>
       </div>
     )
   }
