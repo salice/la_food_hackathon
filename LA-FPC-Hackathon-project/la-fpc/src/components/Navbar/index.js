@@ -3,7 +3,6 @@ import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Grid from '@material-ui/core/Grid';
 import { Link as LinkRoute } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
-
 class Navbar extends Component {
     render() {
         return (
@@ -11,7 +10,7 @@ class Navbar extends Component {
             <Grid container spacing={3}>
                 <Grid item xs={12} style={{marginLeft: '30px', marginRight: '30px'}}>
                     <ButtonGroup fullWidth aria-label="full width outlined button group">
-                        <Button
+                        {/* <Button
                             size='large'
                             className='nav-button'
                             component={ LinkRoute } 
@@ -19,8 +18,8 @@ class Navbar extends Component {
                             style={{backgroundColor:'#8BC147', color:'white', fontWeight:'bold', borderColor:'#8BC147'}}
                         >
                             Sustainability
-                        </Button>
-                        <Button 
+                        </Button> */}
+                        {/* <Button 
                             className='nav-button'
                             component={ LinkRoute } 
                             to='/healthy' 
@@ -28,7 +27,6 @@ class Navbar extends Component {
                         >
                             Health
                         </Button>
-                
                         <Button
                             className='nav-button' 
                             component={ LinkRoute } 
@@ -44,7 +42,7 @@ class Navbar extends Component {
                             style={{backgroundColor:'#D6D7AD', color:'white', fontWeight:'bold', borderColor:'#D6D7AD'}}
                         >
                             Fairness
-                        </Button>
+                        </Button> */}
                     </ButtonGroup>
                 </Grid>
             </Grid>
@@ -52,6 +50,4 @@ class Navbar extends Component {
         )
     }
 }
-
-
 export default Navbar
